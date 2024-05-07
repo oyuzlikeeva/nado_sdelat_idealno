@@ -10,11 +10,12 @@ html {
 }
 
 body {
+    position: relative;
     width: 100%;
     min-width: 800px;
     height: inherit;
-    max-height: 900px;
     margin: 0 auto;
+    background: #fdafe7;
     font-family: Raleway, sans-serif;
 }
 

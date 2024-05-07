@@ -1,18 +1,9 @@
-.container {
-    position: relative;
-}
-
-.container::before {
+.container:has(> .title:hover)::before {
     content: '';
     position: absolute;
-    display: none;
     inset: 0;
     background: rgba(255, 255, 255, .3);
     z-index: 2;
-}
-
-.container::before:has(>.title:hover) {
-    display: block;
 }
 
 .video-cover {
@@ -37,6 +28,11 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    cursor: default;
+}
+
+.title:hover {
+    color: #4C4C4C;
 }
 
 .title::after {
