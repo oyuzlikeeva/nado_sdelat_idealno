@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-width: 800px;
+    height: inherit;
+    margin: 0 auto;
+    background: #fdafe7;
+    font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
